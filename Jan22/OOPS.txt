@@ -1,0 +1,87 @@
+SDLC-Software Development Life Cycle.
+
+Complexity---Internal, External
+
+OOA.
+OOD.
+OOAD.
+
+
+
+OOPS---
+
+1. Feasibility study.--understanding of the problem statements
+
+2. Requirements. Functional,Non Functional
+
+3. Analysis.-What is going to done.
+
+4. Design.--UML--unified modeling language
+
+5. Implementation.--
+
+6. Debugging
+
+7. Testing
+
+8. Maintanance.
+
+9. Deployment.
+
+10. Devliver
+
+
+OOPS-Object Oriented Programming
+
+1. class and objects.
+
+2. Encapsulation
+
+3. Abstraction
+
+4. Polymorphism.
+
+5. Inheritance
+
+Objects--things.
+
+Objects: instance of the class..
+
+Characteristics of Objects:
+
+State.id,name,salary---Attributes: Collection of Attributes
+behaviour.--id:101,Name:"Jeeva",--Collection of methods or functions.
+Identity---Uniqueness--
+
+Class---Collection of objects to share a common name is called class
+
+
+Encapsulation: to hide the particular things--
+
+Abstraction: To hide the all the details..
+
+Polymorphism--poly--Many  Morphism--Forms.
+
+--different actions but single way..
+
+inheritance:  Reusability:
+
+
+Keyword:
+
+self-to load the current instance.
+
+Constructor:
+
+To instaniate the memory
+
+its automatically invoked by the Python compiler..
+
+its special member method.
+
+in Python:
+
+__init__  method:
+
+
+

@@ -1,0 +1,88 @@
+Polymorhism: different actions but single way
+
+Polymorphism:
+
+     1. Static Polymorphism or early binding or compile time polymorphism
+     2. Dynamic Polymorphism or Late Binding or Runtime polymorphism
+
+python is not supported for Compile time polymorphism:
+
+----function overloading------python is not have.
+----Operator overloading
+
+
+Dynamic Polymorphism:
+
+----Method overriden:
+
+
+
+Inheritance: Parent child relationship.
+
+Inheritance Types:
+   1. single Inheritance
+   2. Multiple Inheritance
+   3. multilevel Inheritance
+   4. hierarchical Inheritance
+   5. hybrid inheritance.
+
+
+class Bird:
+    def __init__(self, name):
+        self.name = name
+
+    def fly(self):
+        return f"{self.name} can fly"
+
+class Mammal:
+    def __init__(self, name):
+        self.name = name
+
+    def walk(self):
+        return f"{self.name} can walk"
+
+class Bat(Bird, Mammal):
+    def __init__(self, name):
+        # Calling the constructors of both base classes
+        Bird.__init__(self, name)
+        Mammal.__init__(self, name)
+
+# Creating an instance of the derived class with multiple inheritance
+bat = Bat("Batty")
+
+# Using methods from both base classes
+print(bat.fly())    # Output: Batty can fly
+print(bat.walk())   # Output: Batty can walk
+
+
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} says Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return f"{self.name} says Meow!"
+
+class Cow(Animal):
+    def speak(self):
+        return f"{self.name} says Moo!"
+
+# Creating instances of derived classes
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+cow = Cow("Bessie")
+
+# Using overridden methods from derived classes
+print(dog.speak())   # Output: Buddy says Woof!
+print(cat.speak())   # Output: Whiskers says Meow!
+print(cow.speak())   # Output: Bessie says Moo!
+
+
